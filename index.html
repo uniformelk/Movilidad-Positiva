@@ -14,7 +14,7 @@
             
         </section>
     
-     <section class="seccion_1">
+     <section class="seccion_1 pt-5">
             <div class="container ">
                 <h2 class="titulos1 mx-2">El momento de construir la Movilidad Positiva es ahora</h2>
                 <div class="relative mx-2">
@@ -24,9 +24,9 @@
                 <p class="parrafos">Esta forma de entender la operación de vías, nace desde el propósito de <b>VINCI Highways</b>, subsidiaria de <b>VINCI Concessions</b>, por crear conexiones entre la comunidad, permitiendo así un progreso colectivo en los 13 municipios que hacen parte de la vía Bogotá – Girardot, y los más de 17 millones de usuarios que transitan por el corredor vial.
                 </p>
                 <div class="row mt-5">
-                    <div class="col-8 d-flex align-items-center">
+                    <div class="col-12 col-lg-8 d-flex align-items-center">
                         <img src="row.png" alt="" width="35" height="35">
-                        <h3 class="titulos1">Actuamos bajo 5 pilares, que nos permiten<br>promover la Movilidad Positiva en la región:</h3>
+                        <h3 class="titulos1 w-100 w-lg-75">Actuamos bajo 5 pilares, que nos permiten promover la Movilidad Positiva en la región:</h3>
                     </div>
                 </div>
             </div>
@@ -34,6 +34,10 @@
 
         <section class="seccion_uno">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
                         <div class="row">
@@ -65,6 +69,36 @@
                 
             </div>
         </section>
+        <section class="seccion-cinco container mt-5">
+            <h3 class="mb-5 titulos1 text-center tituloP"><img src="row.png" alt=""> Movilidad Positiva en acción</h3>
+            <hr>
+            <div class="grid mt-3">
+                <a class="item text-center row1">
+                    <img src="icon_progrrama1.png" alt="" class="">
+                    <h3 class="titulos2">Programa de sostenibilidad ambiental</h3>
+                </a>
+                <a class="item text-center row2">
+                    <img src="icon_progrrama2.png" alt="" class="">
+                    <h3 class="titulos2">Programa de sostenibilidad ambiental</h3>
+                </a>
+                <a class="item text-center row3">
+                    <img src="icon_progrrama3.png" alt="" class="">
+                    <h3 class="titulos2">Programa de sostenibilidad ambiental</h3>
+                </a>
+                <a class="item text-center row4">
+                    <img src="icon_progrrama4.png" alt="" class="">
+                    <h3 class="titulos2">Programa de sostenibilidad ambiental</h3>
+                </a>
+                <a class="item text-center row5">
+                    <img src="icon_progrrama5.png" alt="" class="">
+                    <h3 class="titulos2">Programa de sostenibilidad ambiental</h3>
+                </a>
+                <a class="item text-center row6">
+                    <img src="icon_progrrama6.png" alt="" class="">
+                    <h3 class="titulos2">Programa de sostenibilidad ambiental</h3>
+                </a>
+             </div>
+        </section>
     <!--
     <section class="seccion_dos container">
             <hr>
@@ -74,11 +108,7 @@
                 <div class="swiper-wrapper" >
                     <?php foreach ($slider as $key => $slide):?>
                         <div class="swiper-slide">
-                            <div class="item text-center banner-<?php echo $slide['color_slider']; ?>">
-                                <img src="<?php echo $slide['icon_seccion2_avbg']; ?>" alt="" class="w-25">
-                                <h3 class="titulos2"><?php echo $slide['titulo_item_slider_avbg']; ?></h3>
-                                <p class="parrafos"><?php echo $slide['texto_item_slider_avbg']; ?></p>
-                            </div>
+                            
                         </div>
                     <?php endforeach; ?>
                 </div>
@@ -155,28 +185,6 @@
                 <p class="btn-text text-right w-100 mt-5 parrafo-2"><span>*Con corte a junio de 2023</span></p>
             </div>
         </section>
-        <section class="seccion-cinco container mt-5">
-            <hr>
-            <h3 class="mb-5 titulos1"><?php echo $seccion_cinco['titulo_seccion5']?></h3>
-            <div class="grid mt-3">
-                <?php foreach ($boxes as $key => $box):?>
-                    <div class="<?php echo $box['clase'] ?>">
-                    <a class="row text-dark" href="<?php echo $box['enlace']; ?>">
-                        <div class="col-9 d-flex">
-                            <div class="m-auto">
-                                <h4 class="title"><?php echo $box['titulo_box'] ?></h4>
-                                <p><?php echo $box['texto_box'] ?></p>
-                            </div>
-                        </div>
-                        <div class="col-3 d-flex">
-                            <img src="<?php echo $box['icon'] ?>" alt="" class="img-fluid m-auto">
-                        </div>
-                    </a>
-                </div>
-                <?php endforeach; ?>
-                
-                
-            </div>
         </section>-->
     </div>
 </body>

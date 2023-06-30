@@ -43,6 +43,25 @@
     body{
         background-color: #f8fcff!important;
     }
+    .carousel-indicators{
+        max-width: 30%;
+    }
+    @media(max-width:992px){
+        .carousel-indicators{
+            top: 20px;
+            left: 20%;
+        }
+    }
+    .carousel-indicators li{
+        background-clip: inherit;
+        background-color: #fff;
+        border-radius: 50%;
+        width: 15px;
+        border-top: none;
+    }
+    .carousel-indicators li.active{
+        background-color: #007E6B;
+    }
     .titulos1{
         font-family: var(--trenda-black);
     }
@@ -69,6 +88,24 @@
         align-items: center;
     }
     /*Movilidad Positiva*/
+    #movilidadPos .banner{
+        background-position: left;
+    }
+    @media(max-width:1200px){
+        #movilidadPos .banner{
+            background-position: 50% 10%;
+        }
+    }
+    @media(max-width:992px){
+        #movilidadPos .banner{
+            background-position: 50% 10%;
+        }
+    }
+    @media(max-width:768px){
+        #movilidadPos .banner{
+            background-position: center;
+        }
+    }
     #movilidadPos .seccion_1 h2{
         color: #004489;
         font-size: 2.5rem;
@@ -95,6 +132,98 @@
         color: #3b618e;
         margin-left: 20px;
         line-height: 1.8rem;
+    }
+    #movilidadPos .seccion_uno{
+        padding: 50px 0;
+    }
+    #movilidadPos .seccion-cinco .tituloP{
+        width: fit-content;
+        margin: auto;
+        background-color: #F3F3F3;
+        padding: 15px 30px;
+        border-radius: 0 20px 0 20px;
+        position: relative;
+        box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);;
+    }
+    #movilidadPos .seccion-cinco h3 img{
+        position: absolute;
+        left: -20px;
+        top: 20px;
+        width: 40px;
+    }
+    #movilidadPos .seccion-cinco hr{
+        position: relative;
+        margin-top: 80px;
+        border-color: #EA9433;
+    }
+    #movilidadPos .grid .item{
+        border-radius: 0 30px 0 30px;
+        background-repeat: no-repeat;
+        background-position: top left;
+        padding: 20px 30px;
+        transition: all ease 1s;
+        box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+        
+    }
+    #movilidadPos .grid {
+        grid-column-gap: 40px ;
+        grid-row-gap: 40px;
+    }
+    #movilidadPos .grid .item:hover{
+        transform: scale(1.05);
+        text-decoration: none;
+    }
+    #movilidadPos .grid .item img{
+        width: 25%;
+    }
+    #movilidadPos .grid .item h3{
+        font-family: var(--trenda-bold);
+        font-size: 1.5rem;
+        max-width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    #movilidadPos .grid .row1{
+        background-image: url(row1.png);
+        border: 1px solid #9FD4BC;
+    }
+    #movilidadPos .grid .row1 h3{
+        color: #007E6B;
+    }
+    #movilidadPos .grid .row2{
+        background-image: url(row2.png);
+        border: 1px solid #DD205D;
+    }
+    #movilidadPos .grid .row2 h3{
+        color: #762868;
+    }
+    #movilidadPos .grid .row3{
+        background-image: url(row3.png);
+        border: 1px solid #0078BA;
+    }
+    #movilidadPos .grid .row3 h3{
+        color: #0078BA;
+    }
+    #movilidadPos .grid .row4{
+        background-image: url(row4.png);
+        border: 1px solid #F69D43;
+    }
+    #movilidadPos .grid .row4 h3{
+        color: #F69D43;
+    }
+    #movilidadPos .grid .row5{
+        background-image: url(row5.png);
+        border: 1px solid #3B618E;
+    }
+    #movilidadPos .grid .row5 h3{
+        color: #3B618E;
+    }
+    #movilidadPos .grid .row6{
+        background-image: url(row6.png);
+        border: 1px solid #61AEDD;
+    }
+    #movilidadPos .grid .row6 h3{
+        color: #0078BA;
     }
     /*Anterior*/
     .banner h1{
