@@ -1,0 +1,568 @@
+@font-face {
+    font-family: trenda-black;
+    src: url(fonts/Trenda-Black.ttf);
+    }
+    @font-face {
+        font-family: trenda-Semibold;
+        src: url(fonts/Trenda-Semibold.ttf);
+    }
+    @font-face {
+        font-family: trenda-Regular;
+        src: url(https://via40express.com/wp-content/themes/via-child/fonts/Trenda-Regular.ttf);
+    }
+   /* @font-face {
+    font-family: trenda-blackIt;
+    src: url(https://via40express.com/wp-content/themes/via-child/fonts/Trenda-BlackIt.ttf);
+    }
+    @font-face {
+    font-family: trenda-bold;
+    src: url(https://via40express.com/wp-content/themes/via-child/fonts/Trenda-Bold.ttf);
+    }
+    @font-face {
+    font-family: trenda-Heavy;
+    src: url(https://via40express.com/wp-content/themes/via-child/fonts/Trenda-Heavy.ttf);
+    }
+    @font-face {
+    font-family: trenda-Regular;
+    src: url(https://via40express.com/wp-content/themes/via-child/fonts/Trenda-Regular.ttf);
+    }
+    
+    @font-face {
+    font-family: vinci-sans-bold;
+    src: url(https://via40express.com/wp-content/themes/via-child/fonts/vinci_sans_bold.ttf);
+    }*/
+    :root{
+        --trenda-black: trenda-black, sans-serif;
+        --trenda-blackIt: trenda-blackIt, sans-serif;
+        --trenda-bold: trenda-bold, sans-serif;
+        --trenda-Heavy: trenda-Heavy, sans-serif;
+        --trenda-Regular: trenda-Regular, sans-serif;
+        --trenda-Semibold: trenda-Semibold, sans-serif;
+        --vinci-sans-bold: vinci-sans-bold, sans-serif;
+    }
+    body{
+        background-color: #f8fcff!important;
+    }
+    .titulos1{
+        font-family: var(--trenda-black);
+    }
+    .titulos2{
+        font-family: var(--trenda-bold);
+    }
+    .parrafos{
+        font-family: var(--trenda-Semibold);
+    }
+    
+    .parrafo-2{
+        font-family: var(--trenda-Semibold);
+    }
+    .parrafos-3{
+        font-family: var(--trenda-Semibold);
+    }
+    .banner{
+        background-image: url(BannerWeb8.jpg);
+        min-height: 60vh;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    /*Movilidad Positiva*/
+    #movilidadPos .seccion_1 h2{
+        color: #004489;
+        font-size: 2.5rem;
+    }
+    #movilidadPos .relative{
+        width: 100%;
+        height: 50px;
+    }
+    #movilidadPos .seccion_1 hr{
+        border: 2px solid #EA9433;
+        width: 10%;
+        border-radius: 20px;
+        position: absolute;
+        left: 0;
+    }
+    #movilidadPos .seccion_1 .parrafos{
+        font-size: 1.2rem;
+        font-weight: normal;
+    }
+    #movilidadPos .seccion_1 .parrafos b{
+        font-family: var(--trenda-black);
+    }
+    #movilidadPos .seccion_1 .row .titulos1{
+        color: #3b618e;
+        margin-left: 20px;
+        line-height: 1.8rem;
+    }
+    /*Anterior*/
+    .banner h1{
+        font-size: 5rem;
+        font-family: var(--vinci-sans-bold);
+        line-height: 7rem;
+    }
+    .banner h1 span{
+        font-family: var(--trenda-Heavy);
+        font-size: 11.438rem;
+    }
+    @media(max-width:1400px){
+        .banner h1{
+           font-size: 5rem; 
+            line-height: 6.5rem;
+        }
+        .banner h1 span{
+            font-size: 9.5rem;
+        }
+    }
+    @media(max-width:1200px){
+        .banner h1{
+           font-size: 4rem; 
+        }
+        .banner h1 span{
+            font-size: 7.5rem;
+        }
+    }
+    @media(max-width:992px){
+        .banner h1{
+           font-size: 3rem; 
+            line-height: 4.5rem;
+        }
+        .banner h1 span{
+            font-size: 6.5rem;
+        }
+    }
+    @media(max-width:768px){
+        .banner h1{
+           font-size: 3rem; 
+            line-height: 2rem;
+        }
+        .banner h1 span{
+            font-size: 5.5rem;
+        }
+    }
+    @media(max-width:517px){
+        .banner h1{
+           
+            line-height: 3rem;
+        }
+        .banner h1 span{
+            font-size: 5rem;
+        }
+    }
+    .seccion_uno, .seccion_dos{
+        padding: 80px 0;
+        position: relative;
+        z-index: 100;
+    }
+    @media(max-width:768px){
+        .seccion_uno{
+            padding: 20px 0;
+        }
+    }
+    .m-negativo{
+        margin: auto;
+        margin-left: -400px;
+        z-index: 2000;
+        background-color: #fff;
+        min-height: 250px;
+        padding: 30px 0;
+        box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    }
+    .m-negativo hr{
+        width: 10%;
+        border: 2px solid #007E6B;
+        border-radius: 20px;
+    }
+    .m-negativo h2{
+        font-size: 3.313rem;
+        color: #007E6B;
+        margin-top: 20px;
+    }
+    @media(max-width: 1600px){
+        .m-negativo .parrafos{
+            font-size: 1rem;
+        }
+        .m-negativo h2{
+            font-size: 2.5rem;
+        }
+        .m-negativo{
+            margin-left: -320px;
+        }
+    }
+    @media(max-width: 992px){
+        .m-negativo{
+            margin-left: 0;
+        }
+    }
+    
+    
+    #via_bog_gir .swiper {
+        width: 90%;
+        height: 100%;
+        padding: 50px 10px!important;
+      }
+    
+      #via_bog_gir .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      #via_bog_gir .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      #via_bog_gir .swiper-slide .item{
+        box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+        border-radius: 0 50px 0 50px;
+        padding: 20px;
+        min-height: 215px;
+        width: 100%;
+      }
+      @media(max-width:992px){
+        #via_bog_gir .swiper-slide .item{
+            min-height: 190px;
+          }
+      }
+      #via_bog_gir .swiper-button-prev::after, .swiper-button-next::after{
+        content: url(https://via40express.com/wp-content/uploads/2023/06/button-slider.png)!important;
+        
+      }
+      #via_bog_gir .swiper-button-next::after{
+        rotate: 180deg!important;
+      }
+      #via_bog_gir .swiper-slide .item h3{
+        margin-top: 20px;
+        color: #004489;
+          font-size: 2rem;
+
+      }
+      @media(max-width:1400px){
+        #via_bog_gir .swiper-slide .item h3{
+            font-size: 1.5rem;
+        }
+        
+      }
+    #via_bog_gir .swiper-slide .item img{
+        margin: auto;
+        margin-top: -50px;
+        width: 20%!important;
+        height: auto;
+    }
+    .seccion_dos, .seccion-cinco{
+        position: relative;
+    }
+    .seccion_dos hr{
+        width: 10%;
+        border: 2px solid #007E6B;
+        border-radius: 20px;
+        position: absolute;
+        top:40px ;
+    }
+    .seccion_dos h2{
+        color: #004489;
+        font-size: 3rem;
+        margin-bottom: 50px;
+    }
+    @media(max-width:768px){
+        .secion-dos{
+            padding: 50px;
+        }
+    }
+    .seccion_tres{
+        background-color: #f8fcff;
+    }
+    .seccion_tres h2{
+        color: #004489;
+        font-size: 2.625rem;
+        margin-bottom: 50px;
+        font-family: var(--trenda-Semibold);
+    }
+    @media(max-width:1400px){
+        .seccion_tres h2{
+            font-size: 2rem;
+        }
+    }
+    .banner-azul{
+        background-image: url(https://via40express.com/wp-content/uploads/2023/06/banner_azul.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .banner-verde{
+        background-image: url(https://via40express.com/wp-content/uploads/2023/06/banner_verde.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .seccion_tres{
+        background-image: url(https://via40express.com/wp-content/uploads/2023/06/banner_mapa.png);
+        background-position: right top;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 100px 0;
+        background-color: #f8fcff;
+    }
+    @media(max-width:992px){
+        .seccion_tres{
+            background-position: right bottom;
+            background-size: contain;
+            background-repeat: no-repeat;
+            padding: 50px 0;
+            background-color: #f8fcff;
+        }
+    }
+    p.big{
+        font-size: 2.875rem;
+        font-weight: normal;
+        line-height: 2.875rem;
+        color: #004489;
+        font-family: var(--trenda-black);
+    }
+    @media(max-width:1400px){
+        p.big{
+            font-size: 2rem;
+            line-height: 1.8rem;
+        }
+    }
+    p.btn-text{
+        margin-top: 100px;
+    }
+    p.btn-text span{
+        padding:10px 20px;
+        background-color: #e9ecef;
+        border-radius: 0 20px 0  20px;
+        color: #004489;
+    }
+    @media(max-width:1400px){
+        .parrafo-2{
+            font-size: 1.2rem;
+        }
+    }
+    .seccion_cuatro{
+        padding: 50px 0;
+    }
+    .seccion_cuatro hr{
+        width: 100%;
+        border: 2px solid #007E6B;
+        border-radius: 20px;
+        margin-bottom: 100px;
+    }
+    .seccion_cuatro h2{
+        font-size: 3rem;
+        font-weight: normal;
+        text-align: center;
+        color: #004489;
+    }
+    .seccion_cuatro .display-1, .seccion_cuatro .display-5{
+        color: #EA9433;
+        margin-bottom: 10px;
+    }
+    .seccion_cuatro .display-1{
+        font-size: 8rem;
+    }
+    .display-5{
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    @media(max-width:1400px){
+        .display-5{
+            font-size: 2rem;
+            line-height: 2rem;
+        }
+    }
+    .seccion_cuatro .b-rb{
+        border-bottom: 3px solid #EA9433;
+        border-right: 3px solid #EA9433;
+    }
+    .seccion_cuatro .b-b{
+        border-bottom: 3px solid #EA9433;
+    }
+    .seccion_cuatro .b-r{
+        border-right: 3px solid #EA9433;
+    }
+    @media(max-width:992px){
+        .seccion_cuatro .b-rb{
+            border-bottom: 3px solid #EA9433;
+            border-right: none;
+        }
+        .seccion_cuatro .b-b{
+            border-bottom: 3px solid #EA9433;
+        }
+        .seccion_cuatro .b-r{
+            border-right: none;
+        }
+        .seccion_cuatro .c{
+            border-bottom: 3px solid #EA9433;
+        }
+        .seccion_cuatro .r{
+            border-right: 3px solid #EA9433;
+        }
+    }
+    .seccion_cuatro .row .c{
+        padding: 40px 10px;
+    }
+    .seccion_cuatro p.text{
+        font-family: var(--trenda-Semibold);
+        font-size: 1.4rem;
+        color: #B2B2B2;
+        line-height: 1.4rem;
+    }
+    @media(max-width:1400px){
+        .display-5{
+            font-size: 2rem;
+            line-height: 2rem;
+        }
+    }
+    .seccion_cuatro .mt-6{
+        margin-top: 80px;
+    }
+    @media(max-width:768px){
+        .seccion_cuatro .mt-6{
+            margin-top: 10px;
+        }
+        .seccion_cuatro .r{
+            border-right: none;
+        }
+    }
+    .seccion-cinco hr{
+        width: 10%;
+        border: 2px solid #007E6B;
+        border-radius: 20px;
+        position: absolute;
+        top:-40px ;
+    }
+    .seccion-cinco h3{
+        font-family: var(--trenda-black);
+        font-size: 2.563rem;
+        color: #004489;
+    }
+    .seccion-cinco h3 span{
+        font-family: var(--trenda-Semibold);
+        font-size: 2.563rem;
+    }
+    .seccion-cinco .grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+        padding-bottom: 50px;
+    }
+    @media(max-width:992px){
+        .seccion-cinco .grid{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    @media(max-width:768px){
+        .seccion-cinco .grid{
+            grid-template-columns: repeat(1, 1fr);
+            
+        }
+    }
+    .seccion-cinco .row{ 
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .seccion-cinco .azul .col-9{
+        padding: 20px;
+        border: 1px solid #004489;
+        border-radius: 0 0 0 20px;
+        width: 100%;
+    }
+    .seccion-cinco .verde .col-9{
+        padding: 20px;
+        border: 1px solid #007E6B;
+        border-radius: 0 0 0 20px;
+        width: 100%;
+    }
+    .azul .col-3{
+        background-color: #004489;
+        border-radius: 0 20px 0 0;
+        width: 101%;
+    }
+    .verde .col-3{
+        background-color: #007E6B;
+        border-radius: 0 20px 0 0;
+        width: 101%;
+    }
+    .seccion-cinco .titulos1{
+        font-size: 2.563rem;
+    }
+    
+    .seccion-cinco .azul .row .col-9, .seccion-cinco .azul .row .col-3, .seccion-cinco .verde .row .col-9, .seccion-cinco .verde .row .col-3{
+        min-height: 150px;
+    }
+    @media(min-width: 1400px){
+        .container{
+            max-width: 1400px!important;
+        }
+    }
+    .grid .title{
+        font-family: var(--trenda-black);
+        font-size: 1.5rem;
+        color: #004489!important;
+    }
+    .grid p{
+        font-family: var(--trenda-sembold);
+        font-size: 1.2rem;
+    }
+    @media(max-width:1400px){
+        .grid p{
+            font-family: var(--trenda-semibold);
+            font-size: 1rem;
+        }
+        .seccion-cinco .azul .row .col-9, .seccion-cinco .azul .row .col-3, .seccion-cinco .verde .row .col-9, .seccion-cinco .verde .row .col-3{
+            min-height: 140px;
+        }   
+    }
+    .seccion_uno .row{
+        margin: 0;
+    }
+    .azul a.row:hover, .verde a.row:hover{
+        text-decoration: none;
+    }
+    
+    .relative{
+        position: relative;
+    }
+    .relative .puntero{
+        position: absolute;
+        top: 35px;
+        left:5px;
+    }
+    @media(max-width:1400px){
+        .relative .puntero{
+            top: 20px;
+            left:10px;
+        }
+    }
+    @media(max-width:1200px){
+        .relative .puntero{
+            top:5px;
+            left: 0;
+        }
+        .seccion-cinco .azul .row .col-9, .seccion-cinco .azul .row .col-3, .seccion-cinco .verde .row .col-9, .seccion-cinco .verde .row .col-3{
+            min-height: 170px;
+        }  
+    }
+    @media(max-width:992){
+        .relative .puntero{
+            top:15px;
+        }
+    }
+    @media(max-width:768px){
+        .relative .puntero{
+            display: none;
+        }
+        .seccion-cinco .azul .row .col-9, .seccion-cinco .azul .row .col-3, .seccion-cinco .verde .row .col-9, .seccion-cinco .verde .row .col-3{
+            min-height: 120px;
+        }  
+    }
+    
+    
+    
